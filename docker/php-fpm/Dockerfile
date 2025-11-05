@@ -1,4 +1,4 @@
-FROM php:8.2-fpm-alpine
+FROM php:8.5.0RC3-fpm-alpine
 
 ENV PHP_EXT_DEPS \
     gettext=gettext-dev \
